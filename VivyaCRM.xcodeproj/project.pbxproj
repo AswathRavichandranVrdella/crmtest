@@ -1,0 +1,1006 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D749BEF2D2BD9E70071C131 /* Themehandler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D749BEE2D2BD9E20071C131 /* Themehandler.framework */; };
+		0D749BF02D2BD9E70071C131 /* Themehandler.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0D749BEE2D2BD9E20071C131 /* Themehandler.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0DD8D6252D26C76D001E1CDE /* Pods_VivyaCRM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C3089E65E3DACF41274352 /* Pods_VivyaCRM.framework */; };
+		0DD8D6262D26C76D001E1CDE /* Pods_VivyaCRM.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 42C3089E65E3DACF41274352 /* Pods_VivyaCRM.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1FEA1D3C70DA0BD7538A2E52 /* Pods_VivyaCRM_VivyaCRMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06302CE0FE5F46804AD092F /* Pods_VivyaCRM_VivyaCRMUITests.framework */; };
+		758390EA49491D906A0D7399 /* Pods_VivyaCRMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B858965A317B81DA15969AA1 /* Pods_VivyaCRMTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D749BED2D2BD9E20071C131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D749B6E2D2BC7160071C131 /* Themehandler.xcodeproj 15-37-13-864.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0D80755D2D11A22D00F445CE;
+			remoteInfo = Themehandler;
+		};
+		232F0DBB2D1587CC005628C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 232F0D992D1587CB005628C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 232F0DA02D1587CB005628C8;
+			remoteInfo = VivyaCRM;
+		};
+		232F0DC52D1587CC005628C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 232F0D992D1587CB005628C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 232F0DA02D1587CB005628C8;
+			remoteInfo = VivyaCRM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0DCD916E2D26BE6300A139D7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0DD8D6262D26C76D001E1CDE /* Pods_VivyaCRM.framework in Embed Frameworks */,
+				0D749BF02D2BD9E70071C131 /* Themehandler.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		022D929C12C03D8EDD027DEE /* Pods-VivyaCRMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivyaCRMTests.debug.xcconfig"; path = "Target Support Files/Pods-VivyaCRMTests/Pods-VivyaCRMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0D17D6772D2BAD5B006D9233 /* Themehandler.xcodeproj 15-37-13-864.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Themehandler.xcodeproj 15-37-13-864.xcodeproj"; sourceTree = "<group>"; };
+		0D3F9C5E2D279DDB000A8099 /* Themehandler.xcodeproj 15-37-13-864.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Themehandler.xcodeproj 15-37-13-864.xcodeproj"; sourceTree = "<group>"; };
+		0D3F9D622D27F5C5000A8099 /* Themehandler.xcodeproj 15-37-13-864.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Themehandler.xcodeproj 15-37-13-864.xcodeproj"; sourceTree = "<group>"; };
+		0D749B6E2D2BC7160071C131 /* Themehandler.xcodeproj 15-37-13-864.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Themehandler.xcodeproj 15-37-13-864.xcodeproj"; sourceTree = "<group>"; };
+		0DCD911A2D26BE4800A139D7 /* Themehandler.xcodeproj 15-37-13-864.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Themehandler.xcodeproj 15-37-13-864.xcodeproj"; sourceTree = "<group>"; };
+		0DD8D5B42D26C6D0001E1CDE /* Themehandler.xcodeproj 15-37-13-864.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Themehandler.xcodeproj 15-37-13-864.xcodeproj"; sourceTree = "<group>"; };
+		232F0DA12D1587CB005628C8 /* VivyaCRM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VivyaCRM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		232F0DBA2D1587CC005628C8 /* VivyaCRMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VivyaCRMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		232F0DC42D1587CC005628C8 /* VivyaCRMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VivyaCRMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C3089E65E3DACF41274352 /* Pods_VivyaCRM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VivyaCRM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		485DFA4C7B2C1D48E7C427F9 /* Pods-VivyaCRMTests.uat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivyaCRMTests.uat.xcconfig"; path = "Target Support Files/Pods-VivyaCRMTests/Pods-VivyaCRMTests.uat.xcconfig"; sourceTree = "<group>"; };
+		84C08D8A638AF3E0DB224055 /* Pods-VivyaCRM.uat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivyaCRM.uat.xcconfig"; path = "Target Support Files/Pods-VivyaCRM/Pods-VivyaCRM.uat.xcconfig"; sourceTree = "<group>"; };
+		A5C215C229C5076C507EF1AF /* Pods-VivyaCRM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivyaCRM.debug.xcconfig"; path = "Target Support Files/Pods-VivyaCRM/Pods-VivyaCRM.debug.xcconfig"; sourceTree = "<group>"; };
+		B06302CE0FE5F46804AD092F /* Pods_VivyaCRM_VivyaCRMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VivyaCRM_VivyaCRMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4F08421C29C0BEFEABAB5C4 /* Pods-VivyaCRMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivyaCRMTests.release.xcconfig"; path = "Target Support Files/Pods-VivyaCRMTests/Pods-VivyaCRMTests.release.xcconfig"; sourceTree = "<group>"; };
+		B858965A317B81DA15969AA1 /* Pods_VivyaCRMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VivyaCRMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A158DC0571D9A6BABB803D /* Pods-VivyaCRM-VivyaCRMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivyaCRM-VivyaCRMUITests.debug.xcconfig"; path = "Target Support Files/Pods-VivyaCRM-VivyaCRMUITests/Pods-VivyaCRM-VivyaCRMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCFA29DF11733F35FD3D76EE /* Pods-VivyaCRM-VivyaCRMUITests.uat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivyaCRM-VivyaCRMUITests.uat.xcconfig"; path = "Target Support Files/Pods-VivyaCRM-VivyaCRMUITests/Pods-VivyaCRM-VivyaCRMUITests.uat.xcconfig"; sourceTree = "<group>"; };
+		D07E567EAB5810A646EE21E0 /* Pods-VivyaCRM-VivyaCRMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivyaCRM-VivyaCRMUITests.release.xcconfig"; path = "Target Support Files/Pods-VivyaCRM-VivyaCRMUITests/Pods-VivyaCRM-VivyaCRMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E75774E8D247DCE2911746D1 /* Pods-VivyaCRM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivyaCRM.release.xcconfig"; path = "Target Support Files/Pods-VivyaCRM/Pods-VivyaCRM.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0DCD91662D26BE4800A139D7 /* Exceptions for "Themehandler" folder in "VivyaCRM" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Themehandler/Info.plist,
+			);
+			target = 232F0DA02D1587CB005628C8 /* VivyaCRM */;
+		};
+		0DCD91C82D26C20300A139D7 /* Exceptions for "VivyaCRM" folder in "VivyaCRM" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 232F0DA02D1587CB005628C8 /* VivyaCRM */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0DCD911B2D26BE4800A139D7 /* Themehandler */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0DCD91662D26BE4800A139D7 /* Exceptions for "Themehandler" folder in "VivyaCRM" target */,
+			);
+			path = Themehandler;
+			sourceTree = "<group>";
+		};
+		232F0DA32D1587CB005628C8 /* VivyaCRM */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0DCD91C82D26C20300A139D7 /* Exceptions for "VivyaCRM" folder in "VivyaCRM" target */,
+			);
+			path = VivyaCRM;
+			sourceTree = "<group>";
+		};
+		232F0DBD2D1587CC005628C8 /* VivyaCRMTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VivyaCRMTests;
+			sourceTree = "<group>";
+		};
+		232F0DC72D1587CC005628C8 /* VivyaCRMUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VivyaCRMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		232F0D9E2D1587CB005628C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD8D6252D26C76D001E1CDE /* Pods_VivyaCRM.framework in Frameworks */,
+				0D749BEF2D2BD9E70071C131 /* Themehandler.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		232F0DB72D1587CC005628C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758390EA49491D906A0D7399 /* Pods_VivyaCRMTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		232F0DC12D1587CC005628C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEA1D3C70DA0BD7538A2E52 /* Pods_VivyaCRM_VivyaCRMUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D17D6782D2BAD5B006D9233 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D3F9C5F2D279DDB000A8099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D3F9D632D27F5C5000A8099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D749B6F2D2BC7160071C131 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D749BEE2D2BD9E20071C131 /* Themehandler.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DCD90FA2D26BCA300A139D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42C3089E65E3DACF41274352 /* Pods_VivyaCRM.framework */,
+				B06302CE0FE5F46804AD092F /* Pods_VivyaCRM_VivyaCRMUITests.framework */,
+				B858965A317B81DA15969AA1 /* Pods_VivyaCRMTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0DCD91672D26BE4800A139D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DD8D5B52D26C6D0001E1CDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		232F0D982D1587CB005628C8 = {
+			isa = PBXGroup;
+			children = (
+				0DCD911B2D26BE4800A139D7 /* Themehandler */,
+				232F0DA32D1587CB005628C8 /* VivyaCRM */,
+				232F0DBD2D1587CC005628C8 /* VivyaCRMTests */,
+				232F0DC72D1587CC005628C8 /* VivyaCRMUITests */,
+				0DCD90FA2D26BCA300A139D7 /* Frameworks */,
+				232F0DA22D1587CB005628C8 /* Products */,
+				B035898C4ECB11EC82C1FFD6 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		232F0DA22D1587CB005628C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				232F0DA12D1587CB005628C8 /* VivyaCRM.app */,
+				232F0DBA2D1587CC005628C8 /* VivyaCRMTests.xctest */,
+				232F0DC42D1587CC005628C8 /* VivyaCRMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B035898C4ECB11EC82C1FFD6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5C215C229C5076C507EF1AF /* Pods-VivyaCRM.debug.xcconfig */,
+				84C08D8A638AF3E0DB224055 /* Pods-VivyaCRM.uat.xcconfig */,
+				E75774E8D247DCE2911746D1 /* Pods-VivyaCRM.release.xcconfig */,
+				B9A158DC0571D9A6BABB803D /* Pods-VivyaCRM-VivyaCRMUITests.debug.xcconfig */,
+				CCFA29DF11733F35FD3D76EE /* Pods-VivyaCRM-VivyaCRMUITests.uat.xcconfig */,
+				D07E567EAB5810A646EE21E0 /* Pods-VivyaCRM-VivyaCRMUITests.release.xcconfig */,
+				022D929C12C03D8EDD027DEE /* Pods-VivyaCRMTests.debug.xcconfig */,
+				485DFA4C7B2C1D48E7C427F9 /* Pods-VivyaCRMTests.uat.xcconfig */,
+				B4F08421C29C0BEFEABAB5C4 /* Pods-VivyaCRMTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		232F0DA02D1587CB005628C8 /* VivyaCRM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 232F0DCD2D1587CC005628C8 /* Build configuration list for PBXNativeTarget "VivyaCRM" */;
+			buildPhases = (
+				11CA6B255ED083978B0C9304 /* [CP] Check Pods Manifest.lock */,
+				232F0D9D2D1587CB005628C8 /* Sources */,
+				232F0D9E2D1587CB005628C8 /* Frameworks */,
+				232F0D9F2D1587CB005628C8 /* Resources */,
+				0DCD916E2D26BE6300A139D7 /* Embed Frameworks */,
+				F7CE28DB3D7436E16F20A271 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0DCD911B2D26BE4800A139D7 /* Themehandler */,
+				232F0DA32D1587CB005628C8 /* VivyaCRM */,
+			);
+			name = VivyaCRM;
+			productName = VivyaCRM;
+			productReference = 232F0DA12D1587CB005628C8 /* VivyaCRM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		232F0DB92D1587CC005628C8 /* VivyaCRMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 232F0DD22D1587CC005628C8 /* Build configuration list for PBXNativeTarget "VivyaCRMTests" */;
+			buildPhases = (
+				6394EFB42318DEED0AA7AEBC /* [CP] Check Pods Manifest.lock */,
+				232F0DB62D1587CC005628C8 /* Sources */,
+				232F0DB72D1587CC005628C8 /* Frameworks */,
+				232F0DB82D1587CC005628C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				232F0DBC2D1587CC005628C8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				232F0DBD2D1587CC005628C8 /* VivyaCRMTests */,
+			);
+			name = VivyaCRMTests;
+			productName = VivyaCRMTests;
+			productReference = 232F0DBA2D1587CC005628C8 /* VivyaCRMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		232F0DC32D1587CC005628C8 /* VivyaCRMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 232F0DD52D1587CC005628C8 /* Build configuration list for PBXNativeTarget "VivyaCRMUITests" */;
+			buildPhases = (
+				73717C543DF6ACB7E53F2E86 /* [CP] Check Pods Manifest.lock */,
+				232F0DC02D1587CC005628C8 /* Sources */,
+				232F0DC12D1587CC005628C8 /* Frameworks */,
+				232F0DC22D1587CC005628C8 /* Resources */,
+				A1BEF014AB809AF31B6AC012 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				232F0DC62D1587CC005628C8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				232F0DC72D1587CC005628C8 /* VivyaCRMUITests */,
+			);
+			name = VivyaCRMUITests;
+			productName = VivyaCRMUITests;
+			productReference = 232F0DC42D1587CC005628C8 /* VivyaCRMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		232F0D992D1587CB005628C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					232F0DA02D1587CB005628C8 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					232F0DB92D1587CC005628C8 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 232F0DA02D1587CB005628C8;
+					};
+					232F0DC32D1587CC005628C8 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 232F0DA02D1587CB005628C8;
+					};
+				};
+			};
+			buildConfigurationList = 232F0D9C2D1587CB005628C8 /* Build configuration list for PBXProject "VivyaCRM" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 232F0D982D1587CB005628C8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 232F0DA22D1587CB005628C8 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0D3F9D632D27F5C5000A8099 /* Products */;
+					ProjectRef = 0D3F9D622D27F5C5000A8099 /* Themehandler.xcodeproj 15-37-13-864.xcodeproj */;
+				},
+				{
+					ProductGroup = 0D749B6F2D2BC7160071C131 /* Products */;
+					ProjectRef = 0D749B6E2D2BC7160071C131 /* Themehandler.xcodeproj 15-37-13-864.xcodeproj */;
+				},
+				{
+					ProductGroup = 0DCD91672D26BE4800A139D7 /* Products */;
+					ProjectRef = 0DCD911A2D26BE4800A139D7 /* Themehandler.xcodeproj 15-37-13-864.xcodeproj */;
+				},
+				{
+					ProductGroup = 0DD8D5B52D26C6D0001E1CDE /* Products */;
+					ProjectRef = 0DD8D5B42D26C6D0001E1CDE /* Themehandler.xcodeproj 15-37-13-864.xcodeproj */;
+				},
+				{
+					ProductGroup = 0D3F9C5F2D279DDB000A8099 /* Products */;
+					ProjectRef = 0D3F9C5E2D279DDB000A8099 /* Themehandler.xcodeproj 15-37-13-864.xcodeproj */;
+				},
+				{
+					ProductGroup = 0D17D6782D2BAD5B006D9233 /* Products */;
+					ProjectRef = 0D17D6772D2BAD5B006D9233 /* Themehandler.xcodeproj 15-37-13-864.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				232F0DA02D1587CB005628C8 /* VivyaCRM */,
+				232F0DB92D1587CC005628C8 /* VivyaCRMTests */,
+				232F0DC32D1587CC005628C8 /* VivyaCRMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0D749BEE2D2BD9E20071C131 /* Themehandler.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Themehandler.framework;
+			remoteRef = 0D749BED2D2BD9E20071C131 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		232F0D9F2D1587CB005628C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		232F0DB82D1587CC005628C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		232F0DC22D1587CC005628C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11CA6B255ED083978B0C9304 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VivyaCRM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6394EFB42318DEED0AA7AEBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VivyaCRMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73717C543DF6ACB7E53F2E86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VivyaCRM-VivyaCRMUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1BEF014AB809AF31B6AC012 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VivyaCRM-VivyaCRMUITests/Pods-VivyaCRM-VivyaCRMUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VivyaCRM-VivyaCRMUITests/Pods-VivyaCRM-VivyaCRMUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VivyaCRM-VivyaCRMUITests/Pods-VivyaCRM-VivyaCRMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7CE28DB3D7436E16F20A271 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VivyaCRM/Pods-VivyaCRM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VivyaCRM/Pods-VivyaCRM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VivyaCRM/Pods-VivyaCRM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		232F0D9D2D1587CB005628C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		232F0DB62D1587CC005628C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		232F0DC02D1587CC005628C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		232F0DBC2D1587CC005628C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 232F0DA02D1587CB005628C8 /* VivyaCRM */;
+			targetProxy = 232F0DBB2D1587CC005628C8 /* PBXContainerItemProxy */;
+		};
+		232F0DC62D1587CC005628C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 232F0DA02D1587CB005628C8 /* VivyaCRM */;
+			targetProxy = 232F0DC52D1587CC005628C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DCD90F42D26BC0200A139D7 /* UAT */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 232F0DA32D1587CB005628C8 /* VivyaCRM */;
+			baseConfigurationReferenceRelativePath = Resource/configFiles/uat.xcconfig;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = UAT;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = UAT;
+		};
+		0DCD90F52D26BC0200A139D7 /* UAT */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84C08D8A638AF3E0DB224055 /* Pods-VivyaCRM.uat.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2228K8LXUF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VivyaCRM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-D UAT";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivyacorp.VivyaCRM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = UAT;
+		};
+		0DCD90F62D26BC0200A139D7 /* UAT */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 485DFA4C7B2C1D48E7C427F9 /* Pods-VivyaCRMTests.uat.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2228K8LXUF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivyacorp.VivyaCRMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VivyaCRM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VivyaCRM";
+			};
+			name = UAT;
+		};
+		0DCD90F72D26BC0200A139D7 /* UAT */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCFA29DF11733F35FD3D76EE /* Pods-VivyaCRM-VivyaCRMUITests.uat.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2228K8LXUF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivyacorp.VivyaCRMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VivyaCRM;
+			};
+			name = UAT;
+		};
+		232F0DCE2D1587CC005628C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5C215C229C5076C507EF1AF /* Pods-VivyaCRM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2228K8LXUF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VivyaCRM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-D DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivyacorp.VivyaCRM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		232F0DCF2D1587CC005628C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E75774E8D247DCE2911746D1 /* Pods-VivyaCRM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2228K8LXUF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VivyaCRM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-D RELEASE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivyacorp.VivyaCRM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		232F0DD02D1587CC005628C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 232F0DA32D1587CB005628C8 /* VivyaCRM */;
+			baseConfigurationReferenceRelativePath = Resource/configFiles/dev.xcconfig;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		232F0DD12D1587CC005628C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 232F0DA32D1587CB005628C8 /* VivyaCRM */;
+			baseConfigurationReferenceRelativePath = Resource/configFiles/prod.xcconfig;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		232F0DD32D1587CC005628C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 022D929C12C03D8EDD027DEE /* Pods-VivyaCRMTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2228K8LXUF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivyacorp.VivyaCRMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VivyaCRM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VivyaCRM";
+			};
+			name = Debug;
+		};
+		232F0DD42D1587CC005628C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4F08421C29C0BEFEABAB5C4 /* Pods-VivyaCRMTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2228K8LXUF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivyacorp.VivyaCRMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VivyaCRM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VivyaCRM";
+			};
+			name = Release;
+		};
+		232F0DD62D1587CC005628C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9A158DC0571D9A6BABB803D /* Pods-VivyaCRM-VivyaCRMUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2228K8LXUF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivyacorp.VivyaCRMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VivyaCRM;
+			};
+			name = Debug;
+		};
+		232F0DD72D1587CC005628C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D07E567EAB5810A646EE21E0 /* Pods-VivyaCRM-VivyaCRMUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2228K8LXUF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivyacorp.VivyaCRMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VivyaCRM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		232F0D9C2D1587CB005628C8 /* Build configuration list for PBXProject "VivyaCRM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232F0DD02D1587CC005628C8 /* Debug */,
+				0DCD90F42D26BC0200A139D7 /* UAT */,
+				232F0DD12D1587CC005628C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		232F0DCD2D1587CC005628C8 /* Build configuration list for PBXNativeTarget "VivyaCRM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232F0DCE2D1587CC005628C8 /* Debug */,
+				0DCD90F52D26BC0200A139D7 /* UAT */,
+				232F0DCF2D1587CC005628C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		232F0DD22D1587CC005628C8 /* Build configuration list for PBXNativeTarget "VivyaCRMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232F0DD32D1587CC005628C8 /* Debug */,
+				0DCD90F62D26BC0200A139D7 /* UAT */,
+				232F0DD42D1587CC005628C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		232F0DD52D1587CC005628C8 /* Build configuration list for PBXNativeTarget "VivyaCRMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232F0DD62D1587CC005628C8 /* Debug */,
+				0DCD90F72D26BC0200A139D7 /* UAT */,
+				232F0DD72D1587CC005628C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 232F0D992D1587CB005628C8 /* Project object */;
+}
